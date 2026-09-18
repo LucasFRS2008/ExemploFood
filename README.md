@@ -1,16 +1,59 @@
-# React + Vite
+# 🍔 ExemploFood
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um simulador de aplicativo de pedidos de comida desenvolvido com **React** e **Vite**.
 
-Currently, two official plugins are available:
+O projeto simula a experiência de um aplicativo de delivery, permitindo visualizar produtos, adicionar itens ao carrinho, alterar quantidades e confirmar um pedido.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📱 Sobre o projeto
 
-## React Compiler
+O **ExemploFood** foi desenvolvido como um projeto de aprendizado em React, com o objetivo de praticar conceitos como:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Componentização
+- Hooks do React
+- Gerenciamento de estado
+- Manipulação de listas
+- Eventos e interações
+- Carrinho de compras
+- Renderização condicional
+- Organização de componentes
 
-## Expanding the ESLint configuration
+## 🚀 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🍕 Visualização de produtos
+- 🛒 Adição de produtos ao carrinho
+- ➕ Aumento da quantidade de produtos
+- ➖ Redução da quantidade de produtos
+- 🗑️ Controle dos itens do carrinho
+- 💰 Cálculo do subtotal
+- 🚚 Cálculo da taxa de entrega
+- 💵 Cálculo do valor total
+- ✅ Simulação da confirmação do pedido
+
+## 🛠️ Tecnologias utilizadas
+
+- **React**
+- **Vite**
+- **JavaScript**
+- **HTML5**
+- **CSS3**
+- **ESLint**
+
+## 📂 Estrutura do projeto
+
+```text
+ExemploFood/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   └── Pedido.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
